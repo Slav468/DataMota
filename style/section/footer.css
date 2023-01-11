@@ -1,23 +1,24 @@
-.footer {
-	width: 100%;
-	margin: 0 auto;
-	background-color: var(--bg-main);
-}
-
-#github {
-	transform: rotate(90deg);
-}
-
 .contact__list {
 	margin: 0 auto;
 	width: 50%;
-	min-height: 10rem;
+
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	list-style: none;
 }
 
-.contact__link svg {
-	max-width: 2rem;
+.contact__item {
+	display: flex;
+}
+.contact__link img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+.contact__link img:hover {
+	animation: hoverAnim 2s ease 0s infinite normal forwards;
 }

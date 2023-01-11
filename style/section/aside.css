@@ -1,4 +1,5 @@
 .aside {
+	height: 100%;
 	max-width: 33.33%;
 	display: flex;
 	flex-direction: column;

@@ -1,6 +1,7 @@
 @import url(general/fonts.css);
 @import url(general/variables.css);
 @import url(general/normalize.css);
+@import url(general/anim.css);
 @import url(general/general.css);
 
 /* import section */
