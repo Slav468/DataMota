@@ -1,5 +1,4 @@
 window.onload = function () {
-	let slidePosition = 0;
 	let count = 0;
 	let width;
 	const swiper = document.querySelector(".swiper");
@@ -41,4 +40,23 @@ window.onload = function () {
 	function rollSlider() {
 		sliderTrack.style.transform = "translate(-" + count * width + "px";
 	}
+
+	const headerBurger = document.querySelector(".header__burger");
+	const menuBurger = document.querySelector(".menu");
+	const iconClose = document.querySelector(".icon-menu");
+	const menuLink = document.querySelectorAll(".menu__link");
+
+	function closeMenu() {
+		menuBurger.style.right = "-100%";
+	}
+
+	headerBurger.addEventListener("click", () => {
+		menuBurger.style.right = "0px";
+	});
+
+	iconClose.addEventListener("click", closeMenu);
+
+	menuLink.forEach((el) => {
+		el.addEventListener("click", closeMenu);
+	});
 };

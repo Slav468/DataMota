@@ -35,8 +35,48 @@
 						<li class="navigation__item">
 							<a href="#skills" class="navigation__link">Skills</a>
 						</li>
+						<li class="navigation__item">
+							<a href="#contacts" class="navigation__link">Contacts</a>
+						</li>
 					</ul>
 				</nav>
+
+				<div class="header__burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<div class="header__menu menu">
+
+					<div class="menu__wrap">
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="nmenu__item">
+									<a href="#about" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#education" class="menu__link">Education</a>
+								</li>
+								<li class="menu__item">
+									<a href="#courses" class="menu__link">Complete Courses</a>
+								</li>
+								<li class="menu__item">
+									<a href="#skills" class="menu__link">Skills</a>
+								</li>
+								<li class="menu__item">
+									<a href="#contacts" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+				</div>
+
 			</div>
 		</header>
 		<main class="main">
@@ -44,25 +84,23 @@
 
 				<article class="content">
 					<h1 class="content__title">Hello, my name is Sergey!</h1>
-					<section class="about">
+					<section class="about" id="about">
 						<h2 class="about__title">About me:</h2>
-						<p class="about__descr">and I am a thirty-four year old man. In September 2021, my thoughts and
-							desires
+						<p class="about__descr">I am Sergey and I a thirty-four year old man.</p>
+						<p>In September 2021, my thoughts and desires
 							motivated me to purchase paid web development courses and start doing it on my own, with a
 							desire to
 							understand and a desire to understand how everything works. I am currently finishing my
-							three
-							courses on
-							JavaScript and Web-development. I also have a driving license with the right to drive
-							category
-							B. My
-							English level: Pre-Intermediate A2 - Intermediate B1.</p>
+							three courses on JavaScript and Web-development.</p>
+						<p>I also have a driving license with the right to drive category B.</p>
+						<p>My English level: Pre-Intermediate A2 - Intermediate B1.</p>
+						<p>I play volleyball, play the guitar, lead an active lifestyle.</p>
 					</section>
 
 					<section class="courses">
 						<h3 class="courses__title">My course completion certificates:</h3>
 
-						<div class="courses__slider swiper">
+						<div class="courses__slider swiper" id="courses">
 
 							<div class="courses__wrapper swiper-wrapper">
 
@@ -77,8 +115,20 @@
 								</div>
 							</div>
 
-							<button type="button" class="swiper-button-prev"></button>
-							<button type="button" class="swiper-button-next"></button>
+							<button type="button" class="swiper-button-prev">
+								<svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.00003 3.00656L1.00003 1.00667" stroke="#717171" stroke-width="0.5"
+										stroke-linecap="round" />
+									<path d="M3 3.00635L5 1.00635" stroke="#717171" stroke-width="0.5" stroke-linecap="round" />
+								</svg>
+							</button>
+							<button type="button" class="swiper-button-next">
+								<svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M3.00003 3.00656L1.00003 1.00667" stroke="#717171" stroke-width="0.5"
+										stroke-linecap="round" />
+									<path d="M3 3.00635L5 1.00635" stroke="#717171" stroke-width="0.5" stroke-linecap="round" />
+								</svg>
+							</button>
 
 						</div>
 					</section>
@@ -87,7 +137,7 @@
 				<aside class="aside">
 					<img src="img/foto/my-foto.jpg" alt="my foto" class="aside__img">
 
-					<section class="education">
+					<section class="education" id="education">
 						<div class="education__descr">
 							<h4 class="education__place"> <span>Educational institution:</span> Private institute of
 								management and
@@ -100,7 +150,7 @@
 
 					<section class="skills">
 						<h3 class="skills__title">My skills:</h3>
-						<ul class="skills__list">
+						<ul class="skills__list" id="skills">
 
 							<li class="skills__item">
 								<img src="img/skills/html5.png" alt="html5">
@@ -133,24 +183,20 @@
 						</ul>
 					</section>
 
-					<div class="contacts">
-
-					</div>
 				</aside>
 			</div>
 
 		</main>
 		<footer class="footer">
 			<div class="container footer__container">
-				<ul class="contact__list">
+				<ul class="contact__list" id="contacts">
 					<li class="contact__item">
 						<a href="https://github.com/Slav468" class="contact__link" target="">
 							<img src="img/social/github.png" alt="github">
 						</a>
 					</li>
 					<li class="contact__item">
-						<a href="https://www.linkedin.com/in/sergey-scoromnik-7b1882224/" class="contact__link"
-							target="_blank">
+						<a href="https://www.linkedin.com/in/sergey-scoromnik-7b1882224/" class="contact__link" target="_blank">
 							<img src="img/social/linked.png" alt="linked in">
 						</a>
 					</li>

@@ -9,7 +9,12 @@
 }
 
 .about__descr {
+	margin: 0;
 	font-size: 1.4rem;
 	text-indent: 2rem;
 	text-align: justify;
+}
+.about__descr ~ p {
+	margin: 0;
+	text-indent: 2rem;
 }

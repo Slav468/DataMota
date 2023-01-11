@@ -6,6 +6,7 @@
 
 /* import section */
 @import url(section/header.css);
+@import url(section/burger.css);
 @import url(section/aside.css);
 @import url(section/education.css);
 @import url(section/about.css);

@@ -11,7 +11,6 @@
 }
 
 .courses__slider {
-	background-color: red;
 	position: relative;
 
 	max-width: 650px;
@@ -43,9 +42,34 @@
 .swiper-button-prev,
 .swiper-button-next {
 	position: absolute;
-	height: 50px;
+	height: 100%;
 	width: 15px;
 	cursor: pointer;
+	padding: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 10px;
+	border: none;
+}
+
+.swiper-button-prev svg {
+	transform: rotate(90deg);
+}
+.swiper-button-next svg {
+	transform: rotate(-90deg);
+}
+.swiper-button-prev:hover svg path,
+.swiper-button-next:hover svg path {
+	stroke: var(--text-color-hover);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+	background: var(--hover-bg);
+	border: none;
 }
 
 .swiper-button-prev {

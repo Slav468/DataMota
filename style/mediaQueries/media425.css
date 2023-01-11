@@ -13,4 +13,8 @@
 		max-width: 40px;
 		max-height: 40px;
 	}
+
+	.courses__title {
+		font-size: 1.8rem;
+	}
 }

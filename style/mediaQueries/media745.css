@@ -1,7 +1,10 @@
 @media (max-width: 745px) {
 	.header {
 		min-height: 7vh;
+		display: flex;
+	}
 
+	.header__burger {
 		display: flex;
 	}
 

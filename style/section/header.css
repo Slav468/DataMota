@@ -2,6 +2,7 @@
 	width: 100%;
 	margin: 0 auto;
 	background-color: var(--bg-main);
+	position: relative;
 }
 
 .header__logo {
@@ -11,9 +12,6 @@
 .header__logo img {
 	width: 100%;
 }
-
-/* .navigation {
-} */
 
 .navigation__list {
 	display: flex;
@@ -36,4 +34,6 @@
 	padding: 0.8rem 0.8rem;
 	color: var(--text-color);
 	border-radius: 10px;
+
+	font-size: 1.2rem;
 }
