@@ -2,16 +2,175 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="main.js" defer></script>
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="shortcut icon" href="img/favicon/favico.ico" type="image/x-icon">
+	<script src="main.js" defer></script>
+	<title>CV</title>
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__logo">
+					<a href="/" class="header__link">
+						<img src="img/logo/logo.png" alt="logo">
+					</a>
+				</div>
+				<nav class="header__navigation navigation">
+					<ul class="navigation__list">
+
+						<li class="navigation__item">
+							<a href="#about" class="navigation__link">About</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#education" class="navigation__link">Education</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#courses" class="navigation__link">Complete Courses</a>
+						</li>
+						<li class="navigation__item">
+							<a href="#skills" class="navigation__link">Skills</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container main__container">
+				<article class="content">
+					<h1 class="content__title">Hello, my name is Sergey!</h1>
+					<section class="about">
+						<h2 class="about__title">About me:</h2>
+						<p class="about__descr">and I am a thirty-four year old man. In September 2021, my thoughts and
+							desires
+							motivated me to purchase paid web development courses and start doing it on my own, with a
+							desire to
+							understand and a desire to understand how everything works. I am currently finishing my
+							three
+							courses on
+							JavaScript and Web-development. I also have a driving license with the right to drive
+							category
+							B. My
+							English level: Pre-Intermediate A2 - Intermediate B1.</p>
+					</section>
+
+					<section class="courses">
+						<h3 class="courses__title">My course completion certificates:</h3>
+
+						<div class="courses__slider swiper">
+
+							<div class="courses__wrapper swiper-wrapper">
+
+								<div class="courses__slide swiper-slide">
+									<img src="img/cert/cert1.jpg" alt="certificate">
+								</div>
+								<div class="courses__slide swiper-slide">
+									<img src="img/cert/cert2.jpg" alt="certificate">
+								</div>
+								<div class="courses__slide swiper-slide">
+									<img src="img/cert/cert3.jpg" alt="certificate">
+								</div>
+							</div>
+
+							<button type="button" class="swiper-button-prev"></button>
+
+							<button type="button" class="swiper-button-next"></button>
+
+						</div>
+					</section>
+				</article>
+
+				<aside class="aside">
+					<img src="img/foto/my-foto.jpg" alt="my foto" class="aside__img">
+
+					<section class="education">
+						<div class="education__descr">
+							<h4 class="education__place"> <span>Educational institution:</span> Private institute of management and
+								entrepreneurship</h4>
+							<p class="education__years"><span>Years of study:</span> 2006 - 2011</p>
+							<p class="education__proffesion"><span>Proffesion:</span> Lawer</p>
+						</div>
+
+					</section>
+
+					<section class="skills">
+						<h3 class="skills__title">My skills:</h3>
+						<ul class="skills__list">
+
+							<li class="skills__item">
+								<img src="img/skills/html5.png" alt="html5">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/css3.png" alt="css3">
+							</li>
+							<li class="skills__item">
+								<img src="img//skills/js.png" alt="js">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/vscode.png" alt="vscode">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/figma.png" alt="figma">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/git.png" alt="git">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/webpack.png" alt="webpack">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/gulp.png" alt="gulp">
+							</li>
+							<li class="skills__item">
+								<img src="img/skills/bootstrap.png" alt="bootstrap">
+							</li>
+
+						</ul>
+					</section>
+
+					<div class="contacts">
+
+					</div>
+				</aside>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<ul class="contact__list">
+					<li class="contact__item">
+						<a href="" class="contact__link">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="vkon">
+								<path
+									d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2m3.08 14.27h-1.46c-.55 0-.72-.45-1.69-1.44-.88-.83-1.26-.95-1.47-.95-.29 0-.38.08-.38.5v1.31c0 .35-.11.57-1.04.57-1.54 0-3.25-.94-4.45-2.67-1.81-2.54-2.3-4.46-2.3-4.84 0-.21.07-.41.49-.41h1.47c.37 0 .51.16.65.56.72 2.1 1.92 3.9 2.41 3.9.19 0 .27-.09.27-.55V10.1c-.05-.98-.58-1.07-.58-1.42 0-.18.14-.34.37-.34h2.29c.31 0 .42.16.42.54v2.89c0 .31.13.42.23.42.18 0 .34-.11.67-.45 1.05-1.17 1.8-2.98 1.8-2.98.1-.21.26-.41.65-.41h1.43c.44 0 .54.23.44.54-.18.85-1.96 3.36-1.94 3.36-.16.25-.22.36 0 .65.15.21.66.65 1 1.04.62.71 1.1 1.3 1.23 1.71.11.41-.09.62-.51.62z" />
+							</svg>
+						</a>
+					</li>
+					<li class="contact__item">
+						<a href="" class="contact__link">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="linked">
+								<path
+									d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM183 384h-55V213h55v171zm-25.6-197h-.4c-17.6 0-29-13.1-29-29.5 0-16.7 11.7-29.5 29.7-29.5s29 12.7 29.4 29.5c0 16.4-11.4 29.5-29.7 29.5zM384 384h-55v-93.5c0-22.4-8-37.7-27.9-37.7-15.2 0-24.2 10.3-28.2 20.3-1.5 3.6-1.9 8.5-1.9 13.5V384h-55V213h55v23.8c8-11.4 20.5-27.8 49.6-27.8 36.1 0 63.4 23.8 63.4 75.1V384z" />
+							</svg>
+						</a>
+					</li>
+					<li class="contact__item">
+						<a href="" class="contact__link">
+							<svg id="github" width="19" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0 10c0 5.524 4.362 10 9.741 10 4.305 0 7.955-2.866 9.242-6.838.092-.5-.21-.683-.468-.683-.232 0-.844.008-1.657.012.588 2.782-1.306 3.369-1.306 3.369-1.125.454-1.425 1.112-1.425 1.112-.604.906-.592-.07-.592-.07.068-1.004 1.004-1.532 1.004-1.532 1.49-.891 1.059-2.34.81-2.912-.63-.09-1.059-.348-1.302-.633-.244 2.22-1.082 4.555-4.814 4.555a3.704 3.704 0 01-2.614-1.03c-.246.113-1.236.45-2.578-.087 0 0-.26-.838.999-2.75a9.844 9.844 0 01-.329-2.5c.005-.85.112-1.7.329-2.5-1.26-1.9-.999-2.738-.999-2.738 1.342-.537 2.332-.2 2.578-.1A3.72 3.72 0 019.233 3.65c3.742 0 4.566 2.338 4.805 4.563.293-.35.89-.675 1.803-.675 1.303 0 2.35.012 2.667.012.256 0 .56-.175.463-.687C17.692 2.862 14.039 0 9.74 0 4.361 0 0 4.477 0 10z"
+									fill="#000" />
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</footer>
+	</div>
 
 </body>
 

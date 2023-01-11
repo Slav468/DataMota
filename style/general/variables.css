@@ -1,0 +1,28 @@
+:root {
+	/* color*/
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--text-color: #434343;
+	--text-color-hover: #dd9a5c;
+	--title-color: #443535;
+	--border-color: #d2d2d2;
+
+	/* bg */
+	--bg-main: #56c6e0;
+	--hover-bg: #3d73da;
+
+	/* animation*/
+	--standart-transition: all 0.3s ease-out;
+	--focus-shadow: 0 0 5px 3px var(--text-color-hover);
+
+	/* fonts*/
+
+	--fn-size-text: clamp(14px, 4vw, 25px);
+	--fn-size-title: clamp(17px, 5vw, 50px);
+
+	/* width */
+
+	--max-width: 105rem;
+
+	/* border */
+}

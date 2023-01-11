@@ -1,0 +1,23 @@
+.footer {
+	width: 100%;
+	margin: 0 auto;
+	background-color: var(--bg-main);
+}
+
+#github {
+	transform: rotate(90deg);
+}
+
+.contact__list {
+	margin: 0 auto;
+	width: 50%;
+	min-height: 10rem;
+	display: flex;
+}
+
+.contact__link svg {
+	max-width: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
