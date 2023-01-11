@@ -11,3 +11,6 @@
 @import url(section/about.css);
 @import url(section/courses.css);
 @import url(section/footer.css);
+@import url(mediaQueries/media960.css);
+@import url(mediaQueries/media745.css);
+@import url(mediaQueries/media425.css);

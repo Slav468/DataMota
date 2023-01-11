@@ -17,8 +17,8 @@
 
 	/* fonts*/
 
-	--fn-size-text: clamp(14px, 4vw, 25px);
-	--fn-size-title: clamp(17px, 5vw, 50px);
+	--fn-size-text: clamp(14px, 2rem, 25px);
+	--fn-size-title: clamp(17px, 2rem, 50px);
 
 	/* width */
 

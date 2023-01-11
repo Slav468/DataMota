@@ -1,0 +1,29 @@
+@media (max-width: 745px) {
+	.header {
+		min-height: 7vh;
+
+		display: flex;
+	}
+
+	.header__container {
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.courses__slider {
+		width: 95%;
+	}
+}

@@ -1,0 +1,16 @@
+@media (max-width: 425px) {
+	.content__title {
+		font-size: 2rem;
+	}
+
+	.about__title {
+		font-size: 1.7rem;
+	}
+	.footer {
+		min-height: 8vh;
+	}
+	.contact__item {
+		max-width: 40px;
+		max-height: 40px;
+	}
+}
